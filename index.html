@@ -19,6 +19,12 @@
 </header>
 
 <body>
+    <script>
+        if (window.location.host.indexOf('github.io') > -1 && window.location.protocol != "https:"){
+            window.location.protocol = "https";
+        }
+    </script>
+    
     <div class="container">
         <div class="mt-5 justify-content-center text-center center">
             <div class="mb-5">
