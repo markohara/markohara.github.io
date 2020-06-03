@@ -1,0 +1,30 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, open-sans, sans-serif;
+    color: #323a45;
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+
+.link-green{
+    color: #1db100;
+    font-weight: 400;
+}
+
+.link-green:hover {
+    color: #1a9f00;
+}
+
+.heroTitle {
+    font-weight: 300;
+    margin-bottom: -20px;
+}
+
+.heroSubtitle {
+    font-weight: 100;
+}
+
+.btn:hover {
+    background-color: #1db100;
+    border-color: #1db100;
+    color: white;
+}
